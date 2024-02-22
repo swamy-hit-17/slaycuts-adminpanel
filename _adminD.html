@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard </title>
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/admin-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar strat -->
+        
+        <div id="sidebar-wrapper">
+            <div class="lg-screen-nav">
+                <div class="dashboard-logo p-3">
+                    <a href="dashboard.html"><img src="images/Logo.png" alt="Slaycuts" class="img-fluid lg-logo"></a>
+
+
+                </div>
+
+                <div class="list-group list-group-flush mx-3 ">
+                    <a href="_adminD.html" class="list-group-item list-group-item-action my-2 dashboard-link active">
+                        <img src="images/_adminoverview.png" alt="">Dashboard
+                    </a>
+
+                    <a href="_adminC.html" class="list-group-item  list-group-item-action my-2">
+                        <img src="images/_admincate.png" alt="">Categories
+                    </a>
+
+                    <a href="_adminService.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminservice.png" alt="">Services
+                    </a>
+
+                    <a href="_adminsalon.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminschair.png" alt="">Salons
+                    </a>
+
+                    <a href="_adminusers.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminuser.png" alt="">Users
+                    </a>
+
+                    <a href="_adminbid.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminbid.png" alt="">Bids
+                    </a>
+
+                    <a href="_adminpayment.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminpay.png" alt="">Payments
+                    </a>
+
+                    <a href="_adminpayout.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminpay.png" alt="">Payouts
+                    </a>
+
+                    <a href="_adminReview.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminreview.png" alt="">Reviews
+                    </a>
+
+                    <a href="_adminProfile.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminsetng.png" alt="">Settings
+                    </a>
+
+                    <a href="" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminlogout.png" alt="">Logout Account
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Tablet Sidebar start -->
+            <aside class="tablet-nav px-2 py-2">
+                <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+
+                    <img src="images/logo-mobile.png" alt="" class="logo-mobile">
+                </a>
+
+                <div class="list-group list-group-flush my-3">
+                    <a href="_adminD.html" class="list-group-item list-group-item-action my-2 dashboard-link active">
+                        <img src="images/_adminoverview.png" alt="">
+                    </a>
+
+                    <a href="_adminC.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminCate.png" alt="">
+                    </a>
+
+                    <a href="_adminService.html" class="list-group-item  list-group-item-action my-2 ">
+                        <img src="images/_adminservice.png" alt="">
+                    </a>
+                   
+                    <a href="_adminsalon.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminschair.png" alt="">
+                    </a>
+
+                    <a href="_adminusers.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminuser.png" alt="">
+                    </a>
+
+                    <a href="_adminbid.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminbid.png" alt="">
+                    </a>
+
+                    <a href="_adminpayment.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminpay.png" alt="">
+                    </a>
+
+                    <a href="_adminpayout.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminpay.png" alt="">
+                    </a>
+
+                    <a href="_adminReview.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminreview.png" alt="">
+                    </a>
+
+                    <a href="_adminProfile.html" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminsetng.png" alt="">
+                    </a>
+
+                    <a href="" class="list-group-item list-group-item-action my-2">
+                        <img src="images/_adminlogout.png" alt="">
+                    </a>
+                </div>
+
+            </aside>
+
+            <!-- Tablet Sidebar end -->
+        </div>
+
+        <!-- Sidebar end -->
+
+
+
+        <!-- Page content start -->
+        <div id="page-content-wrapper">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 px-4">
+                <h6 class="nav-heading text-light">Dashboard</h6>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> 
+                    
+                </button> -->
+                <div class="user">
+
+                    <div class="notification">
+
+                        <a tabindex="0"  role="button" data-bs-toggle="popover"
+                            data-bs-trigger="focus" data-bs-title="Dismissible popover"
+                            data-bs-content="And here's some amazing content. It's very engaging. Right?">
+                            
+                            <img src="images/notification.png" alt="">
+                            
+                        </a>
+
+                    </div>
+
+                    <div class="user-image">
+                        <img src="images/user-img.png" alt="">
+                    </div>
+                </div>
+
+
+            </nav>
+
+            <!-- BETWEEN THIS LINE PASTE YOUR CODE  -->
+
+            <div class="d-flex" id="wrapper">
+        
+                <!-- Page content start -->
+                <section class="admin-content">
+                    <div class="container-fluid px-4">
+                        <div class="dashboard-section">
+                            <div class="numbers-row">
+                                <div class="conatiner">
+                                    <div class="row">
+                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="total-salons">
+                                                <div class="num-icons">
+                                                    <!-- <i class="fa-solid fa-users"></i> -->
+                                                    <img src="images/total-salons.png" alt="" class="img-fluid" height="40px" width="40px">
+                                                </div>
+                                                <!-- <img src="img/Total Users.png" alt=""> -->
+                                                <div class="content">
+                                                    <h5>85</h5>
+                                                    <p class="box-dash">Total Salons</p>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="total-services">
+                                                
+                                                <div class="num-icons">
+                                                    <!-- <i class="fa-solid fa-note-sticky"></i> -->
+                                                    <img src="images/total-services.png" alt="" class="img-fluid">
+                                                </div>
+                                                
+                                                <div class="content">
+                                                    <h5>25</h5>
+                                                    <p class="box-dash">Total Services</p>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="total-bookings">
+                                                <div class="num-icons">
+                                                    <!-- <i class="fa-solid fa-briefcase"></i> -->
+                                                    <img src="images/total-bookings.png" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="content">
+                                                    <h5>56</h5>
+                                                    <p class="box-dash">Total Bookings</p>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="total-users">
+                                                <div class="num-icons">
+                                                    <!-- <i class="fa-solid fa-coins"></i> -->
+                                                    <img src="images/total-users.png" alt="" class="img-fluid">
+                                                </div>
+                                                
+                                                
+                                                <div class="content">
+                                                    <h5>123</h5>
+                                                    <p class="box-dash">Total Users</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="second-section">
+                                <div class="row">
+                                    <div class="col-lg-9 col-md-6">
+                                        <div class="payment-sec">
+                                            
+                                            <div class="payment-table">
+                                                <h5 class="dashboard-heading">Payments</h5>
+                                              <table>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Salon</th>
+                                                    <th>User</th>
+                                                    <th>Services</th>
+                                                    <th>Price</th>
+                                                    <th>Service Status</th>
+                                                    <th>Actions</th>
+                                                </tr>
+        
+                                                <tr>
+                                                    <td>01</td>
+                                                    <td>Plum & Sugar Salon</td>
+                                                    <td>Jeni</td>
+                                                    <td><ul>
+                                                        <li>Hair Cut</li>
+                                                        <li>Facial</li>
+                                                    </ul></td>
+                                                    <td>₹699</td>
+                                                    <td><button class="btn pending-btn active">Pending</button></td>
+                                                    <td><a href="" class="pay-btn">Pay</a></td>
+                                                </tr>
+        
+                                                <tr>
+                                                    <td>02</td>
+                                                    <td>Cut & Style Salon</td>
+                                                    <td>Mani</td>
+                                                    <td><ul>
+                                                        <li>Hair Cut</li>
+                                                        
+                                                    </ul></td>
+                                                    <td>₹199</td>
+                                                    <td><button class=" btn completed-btn active">Completed</button></td>
+                                                    <td><a href="" class="pay-btn disabled">Pay</a></td>
+                                                </tr>
+        
+                                                <tr>
+                                                    <td>03</td>
+                                                    <td>Hair Speak</td>
+                                                    <td>Mani</td>
+                                                    <td><ul>
+                                                        <li>Hair Cut</li>
+                                                        
+                                                    </ul></td>
+                                                    <td>₹199</td>
+                                                    <td><button class="btn completed-btn active">Completed</button></td>
+                                                    <td><a href="" class="pay-btn disabled">Pay</a></td>
+                                                </tr>
+        
+                                                
+        
+                                                
+                                            </table>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-lg-3 col-md-6 top-salon-bg">
+                                        <div class="top-salon">
+                                            <h5 class="dashboard-heading text-light mt-3 mb-3">Top Salon</h5>
+                                            <div class="row">
+                                                <div class="top-salon-card">
+                                                    <img src="images/top-salon-img.png" alt="">
+                                                    <div class="top-salon-details">
+                                                        <h6 class="text-light">Plum & Sugar Salon</h6>
+                                                        <img src="images/top-salon-location.png" alt=""><span>HSR Layout</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+        
+                                            <div class="row">
+                                                <div class="top-salon-card">
+                                                    <img src="images/top-salon-img.png" alt="">
+                                                    <div class="top-salon-details">
+                                                        <h6 class="text-light">Plum & Sugar Salon</h6>
+                                                        <img src="images/top-salon-location.png" alt=""><span>HSR Layout</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+        
+                                            <div class="row">
+                                                <div class="top-salon-card">
+                                                    <img src="images/top-salon-img.png" alt="">
+                                                    <div class="top-salon-details">
+                                                        <h6 class="text-light">Plum & Sugar Salon</h6>
+                                                        <img src="images/top-salon-location.png" alt=""><span>HSR Layout</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row down-arrow">
+                                                <img src="images/_Darrowdown.png" alt="">
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Page content end -->
+        
+            </div>
+
+            <!-- BETWEEN THIS LINE PASTE YOUR CODE  -->
+
+
+
+        </div>
+        <!-- Page content end -->
+
+    </div>
+    <script>
+        const popover = new bootstrap.Popover('.popover-dismiss', {
+        trigger: 'focus'
+        })
+    </script>
+    <script src="https://kit.fontawesome.com/999ffdb120.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

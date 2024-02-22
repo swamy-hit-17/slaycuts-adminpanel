@@ -1,0 +1,74 @@
+/* Large screen */
+
+@media(max-width: 2560px) and (min-width:1445px){
+
+
+    .admin-content{
+        width: 100%;
+    }
+
+}
+
+
+/* Tablet css */
+@media screen and (max-width:992px) {
+    .lg-screen-nav{
+        display: none;
+    }
+    .tablet-nav{
+        background-color: #171B27;
+        display: block;
+        width: 100%;
+    }
+
+    .logo-mobile{
+        width: 100%;
+    }
+
+    aside{
+        width: 8%;
+        z-index: 999;
+    }
+
+    .list-group-item img {
+        width: 90%;
+    }
+    
+    .navbar{
+        position: relative;
+    }
+
+    .user{
+        position: absolute;
+        right: 10%;
+    }
+
+    #page-content-wrapper {
+        min-width: 100vw;
+        
+    }
+
+    #page-content-wrapper .navbar{
+        padding: 16px 20px 16px 20px !important;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .user{
+        right: 20%;
+    }
+    aside{
+        width: 100% !important;
+    }
+
+    .list-group-item.list-group-item-action{
+        padding: 10px !important;
+    }
+
+    .list-group-item img {
+        width: 100%;
+    }
+}
+
+

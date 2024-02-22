@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Detail </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/responsive11.css">
+    <link rel="stylesheet" href="css/style99.css">
+        <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar strat -->
+        
+      <div id="sidebar-wrapper">
+        <div class="lg-screen-nav">
+            <div class="dashboard-logo p-3">
+                <a href="dashboard.html"><img src="images/Logo.png" alt="Slaycuts" class="img-fluid lg-logo"></a>
+
+
+            </div>
+
+            <div class="list-group list-group-flush mx-3 ">
+                <a href="_adminD.html" class="list-group-item list-group-item-action my-2 dashboard-link ">
+                    <img src="images/_adminoverview.png" alt="">Dashboard
+                </a>
+
+                <a href="_adminC.html" class="list-group-item  list-group-item-action my-2">
+                    <img src="images/_admincate.png" alt="">Category
+                </a>
+
+                <a href="_adminService.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminservice.png" alt="">Services
+                </a>
+
+                <a href="_adminsalon.html" class="list-group-item list-group-item-action my-2 active">
+                    <img src="images/_adminschair.png" alt="">Salons
+                </a>
+
+                <a href="_adminusers.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminuser.png" alt="">Users
+                </a>
+
+                <a href="_adminbid.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminbid.png" alt="">Bid
+                </a>
+
+                <a href="_adminpayment.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminpay.png" alt="">Payments
+                </a>
+
+                <a href="_adminpayout.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminpay.png" alt="">Payout
+                </a>
+
+                <a href="_adminReview.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminreview.png" alt="">Review
+                </a>
+
+                <a href="_adminProfile.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminsetng.png" alt="">Setting
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminlogout.png" alt="">Logout Account
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Tablet Sidebar start -->
+        <aside class="tablet-nav px-2 py-2">
+            <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+
+                <img src="images/logo-mobile.png" alt="" class="logo-mobile">
+            </a>
+
+            <div class="list-group list-group-flush my-3">
+                <a href="_adminD.html" class="list-group-item list-group-item-action my-2 dashboard-link active">
+                    <img src="images/_adminoverview.png" alt="">
+                </a>
+
+                <a href="_adminC.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminCate.png" alt="">
+                </a>
+
+                <a href="_adminService.html" class="list-group-item  list-group-item-action my-2 ">
+                    <img src="images/_adminservice.png" alt="">
+                </a>
+               
+                <a href="_adminsalon.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminschair.png" alt="">
+                </a>
+
+                <a href="_adminusers.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminuser.png" alt="">
+                </a>
+
+                <a href="_adminbid.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminbid.png" alt="">
+                </a>
+
+                <a href="_adminpayment.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminpay.png" alt="">
+                </a>
+
+                <a href="_adminpayout.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminpay.png" alt="">
+                </a>
+
+                <a href="_adminReview.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminreview.png" alt="">
+                </a>
+
+                <a href="_adminProfile.html" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminsetng.png" alt="">
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action my-2">
+                    <img src="images/_adminlogout.png" alt="">
+                </a>
+            </div>
+
+        </aside>
+
+        <!-- Tablet Sidebar end -->
+    </div>
+
+    <!-- Sidebar end -->
+
+
+
+        <!-- Page content start -->
+        <div id="page-content-wrapper">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 px-4">
+                <h6 class="nav-heading">Salon Detail</h6>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> 
+                    
+                </button> -->
+                <div class="user">
+
+                    <div class="notification">
+
+                        <a tabindex="0"  role="button" data-bs-toggle="popover"
+                            data-bs-trigger="focus" data-bs-title="Dismissible popover"
+                            data-bs-content="And here's some amazing content. It's very engaging. Right?">
+                            
+                            <img src="images/notification.png" alt="">
+                            
+                        </a>
+
+                    </div>
+
+                    <div class="user-image">
+                        <img src="images/user-img.png" alt="">
+                    </div>
+                </div>
+
+
+            </nav>
+
+            <!-- BETWEEN THIS LINE PASTE YOUR CODE  -->
+
+            <section id="salon-panel-appointment">
+                <div class="container-fluid">
+        
+                    <div class="row">
+                        <!-- <<<<<<<<<<<<<<<<<<<<< Banner >>>>>>>>>>>>>>>>>>>>>>>>>> -->
+                        <section class="section-1">
+                            <div class="row d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12" >
+                                <!-- <div class="card p-3"> -->
+                                
+                                <div class="owl-carousel owl-theme" id="booking-carousel-1">
+                                    <div class="item">
+                                    <img src="./images/adminsalon1.png" alt="hello"  height="100%" style="max-height:400px ;" />
+                                    </div>
+                                    <div>
+                                    <img src="./images/adminsalon2.png" alt="hello" height="100%" style="max-height:400px ;"/>
+                                    </div>
+                                    <div class="item">
+                                    <img src="./images/adminsalon3.png" alt="hello" height="100%" style="max-height:400px ;"/>
+                                    </div>
+                                    <div>
+                                    <img src="./images/adminsalon2.png" alt="hello" height="100%" style="max-height:400px ;"/>
+                                    </div>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                            </div>
+                         </section>
+                         <div class="row overlay-section">
+                                <div class="col-md-6 col-sm-12 px-5 mt-3">
+                                    <h5 class="detailsheading">Plum & Sugar Salon</h5>
+                                    <p class="">
+                                        <span><img src="./images/location.png" alt="l" /></span>
+                                        &nbsp; HSR Layout, Bengaluru | 0.97 Kms
+                                    </p>
+                                    <p class="">
+                                        <span><img src="./images/Star.png" alt="l" /></span> &nbsp; 4.5
+                                    </p>
+                                    <p class="">
+                                        <span><img src="./images/ph_callO.png" alt="l" /></span> &nbsp; +91 9874859731
+                                    </p>
+                                
+                                </div>
+                                <div class="col-lg-6 mt-3">
+                                    <div class="d-flex align-items-center float-end">
+                                        <div class="d-flex align-items-baseline">
+                                            <h6 class="slider-salon-color">About Salon ></h6> &nbsp;
+                                             <h6 class="slider-salon-color">Payment Information ></h6>
+                                        </div> &nbsp;
+                                        <button class="btn btn-salon-color">Deactivate Salon</button>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        <!-- TABS UPCOMING / COMPLETED AND CANCELLED START -->
+                        <div class="appointment-top-section mb-3">
+        
+                            <!-- TABS START -->
+                            <ul class="nav nav-pills " id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-upcoming-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-upcoming" type="button" role="tab" aria-controls="pills-upcoming"
+                                        aria-selected="true">Upcoming </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-completed-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-completed" type="button" role="tab"
+                                        aria-controls="pills-completed" aria-selected="false">Completed</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-cancelled-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-cancelled" type="button" role="tab"
+                                        aria-controls="pills-cancelled" aria-selected="false">Cancelled</button>
+                                </li>
+        
+                            </ul>
+                            <!-- TABS END -->
+        
+                           
+                        </div>
+        
+        
+                        <!-- TABS CONTENT START -->
+                        <div class="tab-content" id="pills-tabContent">
+                            <!-- TABS UPCOMING START -->
+                            <div class="tab-pane fade show active" id="pills-upcoming" role="tabpanel"
+                                aria-labelledby="pills-upcoming-tab" tabindex="0">
+                                <!-- UPCOMING LIST START -->
+        
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="upcoming-appointment"class="appointment-popup" data-bs-toggle="modal" data-bs-target="#upcoming-appointment-modal">
+                                            <div class="col-md-2">
+                                                <div class="client-details">
+                                                    <img src="images/client-img.png" alt="" class="client-img img-fluid">
+                                                    <div class="client-name-id">
+                                                        <h6 class="client-name">Username</h6>
+                                                        <span class="client-id">Booking Id: 12345</span>
+                                                    </div>
+        
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-3 text-center">
+                                                <div class="slot">
+                                                    <img src="images/slot.png" alt=""><span>Slot</span>
+                                                    <p class="slot-time">23 Dec,2023 | 11.00 AM</p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-2">
+                                                <div class="services-added">
+                                                    <img src="images/scissors.png" alt=""><span>Services Added</span>
+                                                    <ul>
+                                                        <li>Hair cut</li>
+                                                        <li>Facial</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-2">
+                                                <div class="services-price">
+                                                    <img src="images/price.png" alt=""><span>Price</span>
+                                                    <p class="price">₹699</p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-4">
+                                                <div class="upcoming">
+                                                    <select class="form-select" aria-label="upcoming">
+                                                        <option selected>Upcoming <i class="bi bi-chevron-compact-down"></i></option>
+                                                        <option value="completed">Completed</option>
+                                                        <option value="canceled">Canceled</option>
+        
+                                                    </select>
+        
+                                                    <div class="normal-bid">
+                                                        <span class="normal">Normal</span>
+                                                    </div>
+        
+                                                </div>
+        
+                                                
+                                            </div>
+        
+        
+                                        </div>
+        
+        
+                                        <!-- UPCOMING APPOINTMENT POPUP START -->
+        
+                                        <div class="modal fade" id="upcoming-appointment-modal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                                                        <!-- <div class="client-details">
+                                                            <img src="images/client-img.png" alt=""
+                                                                class="client-img img-fluid">
+                                                            <div class="client-name-id">
+                                                                <h6 class="client-name">Username</h6>
+                                                                <span class="client-id">Booking Id: 12345</span>
+                                                            </div>
+        
+                                                        </div>
+        
+                                                        <div class="upcoming">
+                                                            <select class="form-select" aria-label="upcoming">
+                                                                <option selected>Upcoming</option>
+                                                                <option value="completed">Completed</option>
+                                                                <option value="canceled">Canceled</option>
+        
+                                                            </select>
+        
+                                                            <div class="normal-bid">
+                                                                <span class="normal">Normal</span>
+                                                            </div>
+                                                        </div> -->
+        
+                                                        <h6>Plum & Sugar Salon | Unisex salon</h6>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close">
+                                                        </button>
+                                                    </div>
+        
+                                                    <div class="modal-body">
+                                                        <div class="container-fluid">
+                                                            <div class="popup-client-details">
+                                                                <div class="row">
+                                                                
+                                                                    <div class="col-md-3">
+                                                                        <div class="phone d-flex align-items-center">
+                                                                            <img src="images/admincall.png" alt=""><p>HSR Layout</p>
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div class="col-md-4">
+                                                                        <div class="mail d-flex align-items-center">
+                                                                            <img src="./images/top-salon-location.png" alt=""><p>example@gmail.com</p>
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div class="col-md-5">
+                                                                        <div class="price d-flex align-items-center">
+                                                                            <img src="images/slot.png" alt=""><p>10:00 AM - 09:30 PM</p>
+                                                                        </div>
+                                                                    </div>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                            
+        
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="popup-services">
+                                                                        <img src="images/scissors.png" alt=""><p>Description</p>
+                                                                    </div>
+                                                                    <div class="services-list">
+                                                                        <p class="px-4 mx-1"> 
+                                                                            Lorem ipsum dolor sit amet consectetur. Pellentesque molestie commodo quis habitant tempus ullamcorper. Purus amet pharetra turpis bibendum fermentum tortor metus massa. Venenatis facilisis at est diam. Risus orci.
+                                                                        </p>
+                                                                    </div>
+                                                                    
+                                                                </div>
+        
+                                                                <!-- <div class="col-md-8">
+                                                                    <div class="popup-time">
+                                                                        <img src="images/slot.png" alt=""><p>23 Dec,2023 | 11.00 AM</p>
+                                                                    </div>
+                                                                </div> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- UPCOMING APPOINTMENT POPUP END -->
+        
+                                        <div class="upcoming-appointment"class="appointment-popup" data-bs-toggle="modal" data-bs-target="#upcoming-appointment-modal">
+                                            <div class="col-md-2">
+                                                <div class="client-details">
+                                                    <img src="images/client-img.png" alt="" class="client-img img-fluid">
+                                                    <div class="client-name-id">
+                                                        <h6 class="client-name">Username</h6>
+                                                        <span class="client-id">Booking Id: 12345</span>
+                                                    </div>
+        
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-3">
+                                                <div class="slot">
+                                                    <img src="images/slot.png" alt=""><span>Slot</span>
+                                                    <p class="slot-time">23 Dec,2023 | 11.00 AM</p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-2">
+                                                <div class="services-added">
+                                                    <img src="images/scissors.png" alt=""><span>Services Added</span>
+                                                    <ul>
+                                                        <li>Hair cut</li>
+                                                        <li>Facial</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-2">
+                                                <div class="services-price">
+                                                    <img src="images/price.png" alt=""><span>Price</span>
+                                                    <p class="price">₹699</p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-4">
+                                                <div class="upcoming">
+                                                    <select class="form-select" aria-label="upcoming">
+                                                        <option selected>Upcoming</option>
+                                                        <option value="completed">Completed</option>
+                                                        <option value="canceled">Canceled</option>
+        
+                                                    </select>
+        
+                                                    <div class="normal-bid">
+                                                        <span class="bid">Bid</span>
+                                                    </div>
+        
+                                                    <!-- <div class="appointment-details">
+                                                        <button type="button" class="appointment-popup" data-bs-toggle="modal" data-bs-target="#upcoming-appointment-modal">
+                                                            View Details <i class="fa-solid fa-angles-right"></i>
+                                                        </button>
+                                                    </div> -->
+        
+                                                </div>
+        
+        
+                                            </div>
+        
+        
+                                        </div>
+        
+        
+                                        <!-- UPCOMING APPOINTMENT POPUP START -->
+        
+                                        <div class="modal fade" id="upcoming-appointment-modal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                                                        <div class="client-details">
+                                                            <img src="images/client-img.png" alt=""
+                                                                class="client-img img-fluid">
+                                                            <div class="client-name-id">
+                                                                <h6 class="client-name">Username</h6>
+                                                                <span class="client-id">Booking Id: 12345</span>
+                                                            </div>
+        
+                                                        </div>
+        
+                                                        <div class="upcoming">
+                                                            <select class="form-select" aria-label="upcoming">
+                                                                <option selected>Upcoming</option>
+                                                                <option value="completed">Completed</option>
+                                                                <option value="canceled">Canceled</option>
+        
+                                                            </select>
+        
+                                                            <div class="normal-bid">
+                                                                <span class="normal">Normal</span>
+                                                            </div>
+                                                        </div>
+        
+        
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close">
+                                                        </button>
+                                                    </div>
+        
+                                                    <div class="modal-body">
+                                                        <div class="container-fluid">
+                                                            <div class="popup-client-details">
+                                                                <div class="row">
+                                                                
+                                                                    <div class="col-md-4">
+                                                                        <div class="phone">
+                                                                            <img src="images/phone-call outlined 2.png" alt=""><p>+919876543210</p>
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div class="col-md-4">
+                                                                        <div class="mail">
+                                                                            <img src="images/mail.png" alt=""><p>example@gmail.com</p>
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div class="col-md-4">
+                                                                        <div class="price">
+                                                                            <img src="images/price.png" alt=""><p>Price:₹699</p>
+                                                                        </div>
+                                                                    </div>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                            
+        
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <div class="popup-services">
+                                                                        <img src="images/scissors.png" alt=""><p>Services Added</p>
+                                                                    </div>
+                                                                    <div class="services-list">
+                                                                        <ul>
+                                                                            <li>Hair Cut</li>
+                                                                            <li>Facial</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    
+                                                                </div>
+        
+                                                                <div class="col-md-8">
+                                                                    <div class="popup-time">
+                                                                        <img src="images/slot.png" alt=""><p>23 Dec,2023 | 11.00 AM</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+        
+                                <!-- UPCOMING LIST END -->
+        
+        
+                            </div>
+                            <!-- TABS UPCOMING END -->
+        
+                            <!-- TABS COMPLETED START -->
+                            <div class="tab-pane fade" id="pills-completed" role="tabpanel"
+                                aria-labelledby="pills-completed-tab" tabindex="0">
+        
+                                <!-- COMPLETED START -->
+        
+                                <div class="upcoming-appointment"class="appointment-popup" data-bs-toggle="modal" data-bs-target="#upcoming-appointment-modal3">
+                                    <div class="col-md-2">
+                                        <div class="client-details">
+                                            <img src="images/client-img.png" alt="" class="client-img img-fluid">
+                                            <div class="client-name-id">
+                                                <h6 class="client-name">Username</h6>
+                                                <span class="client-id">Booking Id: 12345</span>
+                                            </div>
+        
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-2">
+                                        <div class="slot">
+                                            <img src="images/slot.png" alt=""><span>Slot</span>
+                                            <p class="slot-time">23 Dec,2023 | 11.00 AM</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-2">
+                                        <div class="services-added">
+                                            <img src="images/scissors.png" alt=""><span>Services Added</span>
+                                            <ul>
+                                                <li>Hair cut</li>
+                                                <li>Facial</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-2">
+                                        <div class="services-price">
+                                            <img src="images/price.png" alt=""><span>Price</span>
+                                            <p class="price">₹699</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-4">
+                                        <div class="upcoming d-flex align-items-center">
+                                            <div class=" col-3">
+                                                <button class="btn normal-pay px-3" type="button">Pay</button>
+                                            </div>
+        
+                                            <div>
+                                                <button class="btn px-2 btn-outline-secondary text-light bg-transparent" type="button">Completed</button>
+                                            </div>
+                                            <!-- <select class="form-select" aria-label="upcoming">
+                                                <option >Upcoming <i class="bi bi-chevron-compact-down"></i></option>
+                                                <option value="completed" selected>Completed</option>
+                                                <option value="canceled">Canceled</option>
+        
+                                            </select> -->
+        
+                                            <div class="normal-bid">
+                                                <span class="normal">Normal</span>
+                                            </div>
+        
+                                        </div>
+        
+                                        
+                                    </div>
+        
+        
+                                </div>
+        
+        
+                                <!-- UPCOMING APPOINTMENT POPUP START -->
+        
+                                <div class="modal fade" id="upcoming-appointment-modal3" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                          
+                                                <div>
+                                                    <h6>Payment Detail</h6>
+                                                </div>
+        
+                                               
+        
+        
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                    <i class="bi bi-x-lg text-light"></i>
+                                                </button>
+                                            </div>
+        
+                                            <div class="modal-body">
+                                                <div class="container-fluid">
+                                                   
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="input-group mb-3">                                                                
+                                                                <input type="text" id="form-control-placeholder" class="form-control" placeholder="example@upiid" aria-label="Username" aria-describedby="basic-addon1">
+                                                              </div>
+                                                        </div>
+                                                    </div>
+        
+                                                   
+                                                    
+                                                </div>
+                                            </div>
+        
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- UPCOMING APPOINTMENT POPUP END -->
+        
+                            <!-- UPCOMING APPOINTMENT POPUP END -->
+                            <div class="upcoming-appointment"class="appointment-popup" data-bs-toggle="modal" data-bs-target="#upcoming-appointment-modal1">
+                                <div class="col-md-2">
+                                    <div class="client-details">
+                                        <img src="images/client-img.png" alt="" class="client-img img-fluid">
+                                        <div class="client-name-id">
+                                            <h6 class="client-name">Username</h6>
+                                            <span class="client-id">Booking Id: 12345</span>
+                                        </div>
+        
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-2">
+                                    <div class="slot">
+                                        <img src="images/slot.png" alt=""><span>Slot</span>
+                                        <p class="slot-time">23 Dec,2023 | 11.00 AM</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-2">
+                                    <div class="services-added">
+                                        <img src="images/scissors.png" alt=""><span>Services Added</span>
+                                        <ul>
+                                            <li>Hair cut</li>
+                                            <li>Facial</li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-2">
+                                    <div class="services-price">
+                                        <img src="images/price.png" alt=""><span>Price</span>
+                                        <p class="price">₹699</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-4">
+                                    <div class="upcoming d-flex align-items-center">
+                                        <div class=" col-5" style="opacity: 50% !important;">
+                                            <button class="btn normal-pay" type="button">Payment Done</button>
+                                        </div>
+                                        
+                                        <div>
+                                            <button class="btn px-2 btn-outline-secondary text-light bg-transparent" type="button">Completed</button>
+                                        </div>
+                                        <!-- <select class="form-select col-5" aria-label="upcoming">
+                                            <option >Upcoming</option>
+                                            <option value="completed"selected>Completed</option>
+                                            <option value="canceled">Canceled</option>
+        
+                                        </select> -->
+        
+                                        <div class="normal-bid">
+                                            <span class="bid">Bid</span>
+                                        </div>
+        
+                                    </div>
+        
+        
+                                </div>
+        
+        
+                            </div>
+        
+                            <!-- UPCOMING APPOINTMENT POPUP START -->
+        
+                            <div class="modal fade" id="upcoming-appointment-modal1" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                           
+                                            <div>
+                                                <h6>
+                                                    Payment Detail
+                                                </h6>
+                                            </div>
+        
+        
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close">
+                                            </button>
+                                        </div>
+        
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="input-group mb-3">                                                                
+                                                            <input type="text" id="form-control-placeholder" class="form-control" placeholder="example@upiid" aria-label="Username" aria-describedby="basic-addon1">
+                                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- UPCOMING APPOINTMENT POPUP END -->
+        
+                                <!-- COMPLETED END -->
+        
+                            </div>
+                            <!-- TABS COMPLETED END -->
+        
+        
+        
+        
+        
+                            <!-- TABS CANCELED START -->
+                            <div class="tab-pane fade" id="pills-cancelled" role="tabpanel"
+                                aria-labelledby="pills-cancelled-tab" tabindex="0">
+        
+                                <!-- CANCELED START -->
+                                <div class="upcoming-appointment"class="appointment-popup" data-bs-toggle="modal" data-bs-target="#upcoming-appointment-modal5">
+                                    <div class="col-md-2">
+                                        <div class="client-details">
+                                            <img src="images/client-img.png" alt="" class="client-img img-fluid">
+                                            <div class="client-name-id">
+                                                <h6 class="client-name">Username</h6>
+                                                <span class="client-id">Booking Id: 12345</span>
+                                            </div>
+        
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-2">
+                                        <div class="slot">
+                                            <img src="images/slot.png" alt=""><span>Slot</span>
+                                            <p class="slot-time">23 Dec,2023 | 11.00 AM</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-2">
+                                        <div class="services-added">
+                                            <img src="images/scissors.png" alt=""><span>Services Added</span>
+                                            <ul>
+                                                <li>Hair cut</li>
+                                                <li>Facial</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-2">
+                                        <div class="services-price">
+                                            <img src="images/price.png" alt=""><span>Price</span>
+                                            <p class="price">₹699</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-4">
+                                        <div class="upcoming">
+                                            <div class=" col-3">
+                                                <button class="btn normal-pay">Refund</button>
+                                            </div>
+        
+                                            <div>
+                                                <button class="btn px-2 btn-outline-secondary text-light bg-transparent" type="button">Completed</button>
+                                            </div>
+                                            <!-- <select class="form-select" aria-label="upcoming">
+                                                <option >Upcoming <i class="bi bi-chevron-compact-down"></i></option>
+                                                <option value="completed" selected>Completed</option>
+                                                <option value="canceled">Canceled</option>
+        
+                                            </select> -->
+        
+                                            <div class="normal-bid">
+                                                <span class="normal">Normal</span>
+                                            </div>
+        
+                                        </div>
+        
+                                        
+                                    </div>
+        
+        
+                                </div>
+        
+        
+                                <!-- UPCOMING APPOINTMENT POPUP START -->
+        
+                                <div class="modal fade" id="upcoming-appointment-modal5" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                                                <div class="client-details">
+                                                    <img src="images/client-img.png" alt=""
+                                                        class="client-img img-fluid">
+                                                    <div class="client-name-id">
+                                                        <h6 class="client-name">Username</h6>
+                                                        <span class="client-id">Booking Id: 12345</span>
+                                                    </div>
+        
+                                                </div>
+        
+                                                <div class="upcoming">
+                                                    <select class="form-select" aria-label="upcoming">
+                                                        <option selected>Upcoming</option>
+                                                        <option value="completed">Completed</option>
+                                                        <option value="canceled">Canceled</option>
+        
+                                                    </select>
+        
+                                                    <div class="normal-bid">
+                                                        <span class="normal">Normal</span>
+                                                    </div>
+                                                </div>
+        
+        
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                </button>
+                                            </div>
+        
+                                            <div class="modal-body">
+                                                <div class="container-fluid">
+                                                    <div class="popup-client-details">
+                                                        <div class="row">
+                                                        
+                                                            <div class="col-md-4">
+                                                                <div class="phone">
+                                                                    <img src="images/admincall.png" alt=""><p>+919876543210</p>
+                                                                </div>
+                                                            </div>
+        
+                                                            <div class="col-md-4">
+                                                                <div class="mail">
+                                                                    <img src="images/mail_outlined_2.svg" alt=""><p>example@gmail.com</p>
+                                                                </div>
+                                                            </div>
+        
+                                                            <div class="col-md-4">
+                                                                <div class="price">
+                                                                    <img src="images/credit-card 2.svg" alt=""><p>Price:₹699</p>
+                                                                </div>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    
+        
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="popup-services">
+                                                                <img src="images/scissors.png" alt=""><p>Services Added</p>
+                                                            </div>
+                                                            <div class="services-list">
+                                                                <ul>
+                                                                    <li>Hair Cut</li>
+                                                                    <li>Facial</li>
+                                                                </ul>
+                                                            </div>
+                                                            
+                                                        </div>
+        
+                                                        <div class="col-md-8">
+                                                            <div class="popup-time">
+                                                                <img src="images/slot.png" alt=""><p>23 Dec,2023 | 11.00 AM</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+        
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- UPCOMING APPOINTMENT POPUP END -->
+        
+                            <!-- UPCOMING APPOINTMENT POPUP END -->
+                            <div class="upcoming-appointment"class="appointment-popup" data-bs-toggle="modal" data-bs-target="#upcoming-appointment-modal6">
+                                <div class="col-md-2">
+                                    <div class="client-details">
+                                        <img src="images/client-img.png" alt="" class="client-img img-fluid">
+                                        <div class="client-name-id">
+                                            <h6 class="client-name">Username</h6>
+                                            <span class="client-id">Booking Id: 12345</span>
+                                        </div>
+        
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-2">
+                                    <div class="slot">
+                                        <img src="images/slot.png" alt=""><span>Slot</span>
+                                        <p class="slot-time">23 Dec,2023 | 11.00 AM</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-2">
+                                    <div class="services-added">
+                                        <img src="images/scissors.png" alt=""><span>Services Added</span>
+                                        <ul>
+                                            <li>Hair cut</li>
+                                            <li>Facial</li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-2">
+                                    <div class="services-price">
+                                        <img src="images/price.png" alt=""><span>Price</span>
+                                        <p class="price">₹699</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-4">
+                                    <div class="upcoming">
+                                        <div class=" col-5" style="opacity: 50% !important;">
+                                            <button class="btn normal-pay">Refund Done</button>
+                                        </div>
+                                        
+                                        <div>
+                                            <button class="btn px-2 btn-outline-secondary text-light bg-transparent" type="button">Completed</button>
+                                        </div>
+                                        <!-- <select class="form-select col-5" aria-label="upcoming">
+                                            <option >Upcoming</option>
+                                            <option value="completed"selected>Completed</option>
+                                            <option value="canceled">Canceled</option>
+        
+                                        </select> -->
+        
+                                        <div class="normal-bid">
+                                            <span class="bid">Bid</span>
+                                        </div>
+        
+                                    </div>
+        
+        
+                                </div>
+        
+        
+                            </div>
+        
+                            <!-- UPCOMING APPOINTMENT POPUP START -->
+        
+                            <div class="modal fade" id="upcoming-appointment-modal6" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                                            <div class="client-details">
+                                                <img src="images/client-img.png" alt=""
+                                                    class="client-img img-fluid">
+                                                <div class="client-name-id">
+                                                    <h6 class="client-name">Username</h6>
+                                                    <span class="client-id">Booking Id: 12345</span>
+                                                </div>
+        
+                                            </div>
+        
+                                            <div class="upcoming">
+                                                <select class="form-select" aria-label="upcoming">
+                                                    <option selected>Upcoming</option>
+                                                    <option value="completed">Completed</option>
+                                                    <option value="canceled">Canceled</option>
+        
+                                                </select>
+        
+                                                <div class="normal-bid">
+                                                    <span class="normal">Normal</span>
+                                                </div>
+                                            </div>
+        
+        
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close">
+                                            </button>
+                                        </div>
+        
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="popup-client-details">
+                                                    <div class="row">
+                                                    
+                                                        <div class="col-md-4">
+                                                            <div class="phone">
+                                                                <img src="images/admincall.png" alt=""><p>+919876543210</p>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="col-md-4">
+                                                            <div class="mail">
+                                                                <img src="images/mail_outlined_2.svg" alt=""><p>example@gmail.com</p>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="col-md-4">
+                                                            <div class="price">
+                                                                <img src="images/credit-card 2.svg" alt=""><p>Price:₹699</p>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </div>
+                                                </div>
+                                                
+        
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="popup-services">
+                                                            <img src="images/scissors.png" alt=""><p>Services Added</p>
+                                                        </div>
+                                                        <div class="services-list">
+                                                            <ul>
+                                                                <li>Hair Cut</li>
+                                                                <li>Facial</li>
+                                                            </ul>
+                                                        </div>
+                                                        
+                                                    </div>
+        
+                                                    <div class="col-md-8">
+                                                        <div class="popup-time">
+                                                            <img src="images/slot.png" alt=""><p>23 Dec,2023 | 11.00 AM</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- UPCOMING APPOINTMENT POPUP END -->
+        
+                                <!-- CANCELED END -->
+        
+                            </div>
+                            <!-- TABS CANCELED END -->
+                        </div>
+        
+        
+                        <!-- TABS UPCOMING / COMPLETED AND CANCELLED END -->
+        
+                        <!-- pagination start -->
+                        <div class="pagination-section">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="page-select">
+                                            <label for="Page">Page : &nbsp;</label><br>
+                                            <select id="category" name="category">
+                                                <option value="page 1">1</option>
+                                                <option value="page 2">2</option>
+                                                <option value="page 3">3</option>
+                                                <option value="page 4">4</option>
+                                            </select>
+                                            <span class="page-of">&nbsp; of 10</span>
+                                        </div>
+        
+                                    </div>
+        
+                                    <div class="col-md-6">
+                                        <nav aria-label="Page navigation example"
+                                            class="d-flex justify-content-center">
+                                            <ul class="pagination " total-items="1000" items-per-page="10"
+                                                max-size="10">
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Previous">
+                                                        <span aria-hidden="true">&laquo;</span>
+                                                    </a>
+                                                </li>
+                                                <li class="page-item active"><a class="page-link" href="#">1</a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Next">
+                                                        <span aria-hidden="true">&raquo;</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pagination end -->
+                    </div>
+                </div>
+        
+            </section>
+            <script>
+                $(document).ready(function () {
+                  initializeCarousel('booking-carousel-1');
+                });
+          
+                function initializeCarousel(carouselId) {
+                  $('#' + carouselId).owlCarousel({
+                    items: 1,
+                    loop: true,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    autoplayHoverPause: true,
+                    responsiveClass: true,
+                  });
+                }
+              </script>
+            <script src="js/script.js"></script>
+            <script src="https://kit.fontawesome.com/999ffdb120.js" crossorigin="anonymous"></script>
+
+            <!-- BETWEEN THIS LINE PASTE YOUR CODE  -->
+
+
+
+        </div>
+        <!-- Page content end -->
+
+    </div>
+    <script>
+        
+        const popover = new bootstrap.Popover('.popover-dismiss', {
+  trigger: 'focus'
+})
+    </script>
+    <script src="https://kit.fontawesome.com/999ffdb120.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

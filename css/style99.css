@@ -1,0 +1,2446 @@
+/* ============================== GLOBAL CSS START  ======================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.img-fluid {
+    max-width: min-content !important;
+}
+
+.card-img-icons-h6{
+    height: 22px;
+    width: 22px;
+}
+#salon-panel {
+    background-color: #0d111d;
+    overflow-x: hidden;
+}
+
+.margin-tab {
+    margin-top: -80px !important;
+    background: #232836 !important;
+    color: white !important;
+}
+
+.user-detail {
+    height: 190px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF !important;
+}
+
+input:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+table tr th {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.modal-content {
+    background-color: #0d111d !important;
+
+}
+
+.btn-close {
+    background-image: url(../images/popup-close.png) !important;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.modal-header {
+    position: relative;
+}
+
+.form-select,
+select option {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 21px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #252832;
+    color: white !important;
+    border-radius: 2px !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+/* ================================== User Pannel Header  */
+.hide-home,
+.mobile-footer-content {
+    display: none !important;
+}
+
+#for-mob-screen {
+    display: none !important;
+}
+
+.hr-footer {
+    width: 100%;
+    height: 1px;
+    color: #ff8000 !important;
+}
+
+.quick-link-mob {
+    display: none;
+}
+
+.site-service-help {
+    display: block;
+}
+
+@media screen and (max-width:767px) {
+
+    #for-mob-screen,
+    .hide-home {
+        display: flex !important;
+    }
+
+    .site-service-help {
+        display: none;
+    }
+
+    .quick-link-mob {
+        display: block;
+    }
+
+    .mobile-footer-content {
+        display: flex !important;
+    }
+
+    #for-large-screen {
+        display: none !important;
+    }
+
+    .foot-row-reverse {
+        flex-flow: column-reverse;
+        display: flex;
+        margin: 10px;
+    }
+
+    .footer-content {
+        margin: 10px !important;
+    }
+}
+
+/* ================================== Card slider for user detail */
+.owl-carousel .owl-item img {
+    border-radius: 10px;
+}
+
+.owl-theme .owl-dots {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    background: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #5bacd9;
+}
+
+.card-item {
+    border-radius: 30px;
+    background: #0d111d !important;
+    box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, 0.3),
+        -10px -10px 20px 0px rgba(119, 113, 113, 0.3);
+}
+
+.card-icons span i {
+    background: #fff;
+    color: #40403F !important;
+    border: 1px solid #fff;
+    box-shadow: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 0;
+}
+
+.card-text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-text span {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.card-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #5bacd9;
+    border: none;
+}
+
+/* ============================== PAGINATION CSS START  =====================*/
+
+.pagination .page-item {
+    margin: 0px 5px !important;
+    border-radius: 8px;
+}
+
+.pagination-center {
+    margin: 20px;
+    align-items: center;
+}
+
+.pagination .page-item .page-link {
+    border: 1px solid #252832 !important;
+    border-radius: 8px !important;
+    background-color: #252832;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.pagination>.active>a {
+    border: none !important;
+    background-color: #FF8000 !important;
+}
+
+.active>.page-item.page-link {
+    color: white !important;
+    border: none !important;
+}
+
+.active>.page-link {
+    color: white !important;
+
+}
+
+#category {
+    background-color: #252832;
+    color: #ffffff;
+    border: none;
+}
+
+.pagination-section {
+    margin-top: 50px;
+}
+
+.page-select {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #000000;
+
+}
+
+.page-select select {
+
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #252832;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 10%;
+}
+
+.page-select select option {
+
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #171B27;
+    color: #5E5E5E;
+    border: none;
+    border-radius: 8px;
+
+}
+
+
+
+.page-select label,
+.page-of {
+    margin-top: 5px;
+    color: #6B7083 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.pagination {
+    /* margin-top: 20px; */
+    justify-content: start;
+}
+
+.page-select {
+    justify-content: start !important;
+}
+
+/* ============================== PAGINATION CSS END  =====================*/
+
+
+/* ============================== GLOBAL CSS END ============================*/
+
+/* ============================== SIGN-UP CSS START ======================== */
+
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 150px 0;
+}
+
+.sign-in .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.sign-up-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+
+}
+
+.logo img {
+    width: 25%;
+}
+
+.owner-input,
+.sign-in-password {
+    padding: 10px 10px 10px 40px;
+    width: 40%;
+    border: none;
+    background-color: #F4F4F4;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #878787;
+
+}
+
+.sign-in-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 32px 16px 32px;
+    border-radius: 5px;
+    background-color: #FF8000;
+    color: white;
+    border: none;
+    width: 40%;
+
+}
+
+
+.sign-in-sec form {
+    margin: 50px 0;
+}
+
+.owner-input {
+    border: none;
+    background-color: #252832;
+}
+
+.owner-name,
+.password-input {
+    position: relative;
+}
+
+.owner-name i,
+.password-input i {
+    position: absolute;
+    left: 31%;
+    top: 22%;
+}
+
+
+.owner-name input::placeholder {
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.login-sec {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.login-sec a {
+    color: #FF8000;
+}
+
+/* ============================== SIGN-UP CSS END ======================== */
+
+/* ============================== SIGN-IN CSS START ======================== */
+
+.sign-in-heading {
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ============================== SIGN-IN CSS END ======================== */
+
+
+
+/* ==============================  OTP CSS START ========================== */
+
+
+
+.otp-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.otp-heading {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #000000;
+
+}
+
+.otp-content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+
+}
+
+.otp-number {
+    color: #FF8000;
+}
+
+.otp-form input {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #252832;
+}
+
+.otp-form input[type="text"] {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F4F4F4;
+
+}
+
+.resend {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin: 20px 0;
+
+}
+
+.resend-link {
+    color: #FF8000;
+}
+
+.otp-submit {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    padding: 16px 32px 16px 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF8000;
+    color: white;
+
+}
+
+/* ============================== OTP CSS END ====================================*/
+
+
+/* ============================== ABOUT SALOON CSS START ====================================*/
+/* #about-saloon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+.form-heading {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-group h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    margin: 10px 0;
+}
+
+.saloon-name {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.saloon-name i {
+    position: absolute;
+    left: 3%;
+    top: 35%;
+}
+
+
+.saloon-name input::placeholder {
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+
+.owner-input {
+    padding: 10px 10px 10px 40px;
+    width: 40%;
+    border: none;
+    background-color: #F4F4F4;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #878787;
+
+}
+
+.owner-input {
+    border: none;
+    background-color: #252832;
+}
+
+
+
+.about-saloon-input,
+.about-saloon-description,
+.bank-details input {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #252832;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+}
+
+.saloon-name.saloon-description i {
+    top: 5% !important;
+}
+
+.saloon-name textarea {
+    resize: none;
+}
+
+.saloon-name textarea::placeholder {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.about-saloon-form,
+.bank-info-saloon-form {
+    padding: 75px 235px;
+}
+
+.saloon-timing {
+    display: flex;
+}
+
+.saloon-open-timing select,
+.saloon-close-timing select {
+    background-color: #252832;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    width: 200%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+}
+
+.form-select {
+    background-image: url(../images/Timing-arrow.png) !important;
+    background-size: 10px !important;
+
+}
+
+.saloon-close-timing {
+    margin-left: 150px;
+}
+
+.salon-types {
+    display: flex;
+    margin: 40px 0;
+}
+
+.salon-types .form-check {
+    padding-right: 30px;
+}
+
+.form-check-input {
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+
+
+.form-check-input:checked[type=radio] {
+    background-image: url(../images/radio-btn.png);
+    background-size: 10px;
+    border: 2px solid #FF8000;
+}
+
+.form-check-input:checked {
+    background-color: #ffffff !important;
+}
+
+.reset-btn,
+.submit-btn {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #252832;
+}
+
+.submit-btn {
+    background-color: #FF8000;
+    margin-left: 25px;
+}
+
+.tell-us-form-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+form h4 {
+    text-align: left;
+}
+
+form p {
+    text-align: center;
+}
+
+#uploadedImage {
+    width: 100%;
+}
+
+.img-wrapper {
+    background-color: #252832;
+    border-radius: 4px;
+    width: 144px;
+    height: 144px;
+}
+
+.img-wrapper {
+    position: relative;
+    /* padding: 45px 0; */
+    margin-bottom: 20px;
+}
+
+#imageInput {
+    opacity: 0;
+    z-index: 999;
+    position: absolute;
+    width: 144px;
+    height: 144px;
+
+}
+
+
+#upload-arrow span {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #6B7083;
+
+}
+
+/* UPLOAD IMAGE CSS */
+
+#imageContainer {
+    display: none;
+    max-width: 100%;
+    /* max-height: 400px; */
+    height: 100px;
+}
+
+#imageInput {
+    opacity: 0;
+    z-index: 999;
+    position: absolute;
+}
+
+#upload-arrow {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 32%;
+    color: #6B7083;
+}
+
+#imageContainer img {
+    width: 144px;
+    height: 144px;
+
+}
+
+.plus-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+}
+
+/* ============================== ABOUT SALOON CSS END ====================================*/
+
+
+/* ============================== BANK INFORMATION CSS START ====================================*/
+
+.bank-details input {
+    margin-bottom: 20px;
+}
+
+
+.bank-details input {
+    padding: 10px 35px;
+}
+
+.bank-details input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+
+}
+
+.skip-now {
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    background-color: #252832;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-align: center;
+}
+
+form p {
+    color: #6B7083 !important;
+    margin-bottom: 30px;
+}
+
+/* ============================== BANK INFORMATION CSS END ====================================*/
+
+
+/* ============================== Admin PANEL DASHBOARD STRAT ================================ */
+#salon-panel-dashboard {
+    padding: 50px 0;
+}
+
+#form-control-placeholder{
+    color: #6B7083 !important;
+    background-color: #252832 !important;
+    border: none;
+}
+#form-control-placeholder::placeholder{
+    color: #6B7083 !important;
+    background-color: #252832 !important;
+}
+.new-booking {
+    position: relative;
+    background-color: #171B27;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.daily-booking-heading {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.daily-booking-number {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.vl {
+    position: absolute;
+    display: block;
+    width: 7px;
+    height: 71px;
+    /* background-color: red; */
+    background-image: linear-gradient(180deg, #FF8000, #5badd900);
+    top: 12%;
+    left: 0;
+    border-radius: 9px;
+}
+
+.new-booking {
+    margin-bottom: 24px;
+}
+
+.top-services {
+    background-color: #171B27;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.top-services table tr td {
+    height: 40px;
+}
+
+.top-services table tr th {
+    color: #6B7083;
+}
+
+.top-services table tr td {
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.top-services table {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+
+}
+
+.top-services table tr th:nth-child(1) {
+    width: 20%;
+    height: 45px;
+}
+
+.top-services table tr th:nth-child(2) {
+    width: 33%;
+}
+
+.top-services table tr th:nth-child(3) {
+    width: 18%;
+}
+
+.top-services table tr:nth-child(1) {
+    border-bottom: 1px solid #6B7083;
+    padding-bottom: 10px;
+}
+
+.table-head {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.tab-content {
+    margin-top: 20px !important;
+}
+
+.sales-percent {
+    background-color: #132A18;
+    border: 1px solid #00B027;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.reviews {
+    padding: 25px 20px;
+    background-color: #171B27;
+    border-radius: 5px;
+}
+
+table tr th {
+    color: #6B7083;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.reviews table tr th:nth-child(1) {
+    width: 5%;
+}
+
+.reviews table tr th:nth-child(2) {
+    width: 15%;
+}
+
+.reviews table tr th:nth-child(3) {
+    width: 59%;
+    padding-right: 40px;
+}
+
+.reviews table tr td:nth-child(3) {
+
+    padding-right: 40px;
+}
+
+.reviews table tr th:nth-child(4) {
+    width: 18%;
+}
+
+.reviews table tr th {
+    height: 60px;
+}
+
+table tr td {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    vertical-align: top;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.like-btn,
+.comment-btn {
+    margin-right: 10px;
+}
+
+.reviews table tr {
+    height: 85px;
+}
+
+.upcoming-appointments {
+    padding: 20px;
+    background-color: #171B27;
+    border-radius: 5px;
+    height: 790px;
+}
+
+.upcoming-appointments h6 {
+    color: #6B7083 !important;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+/* ============================== Admin PANEL DASHBOARD END ================================ */
+
+
+
+/* ============================== SERVICES SART ================================ */
+
+.services-top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-section-right-sec {
+    display: flex;
+}
+
+ul.nav {
+    padding: 8px 15px;
+    background-color: #171B27;
+    border-radius: 8px;
+    /* width: fit-content; */
+}
+
+li.nav-item {
+    padding: 5px 15px;
+
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent !important;
+    border-bottom: 2px solid #FF8000;
+    border-radius: 0px;
+    color: white !important;
+}
+
+
+.nav-item button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #6B7083 !important;
+}
+
+#pills-men-tab,
+#pills-women-tab {
+    padding: 10px 50px;
+}
+
+.search {
+    position: relative;
+    margin-right: 20px;
+}
+
+.search input {
+    background-color: transparent !important;
+    border: 1px solid #FF8000;
+    border-radius: 5px;
+    /* padding: 15px  15px 15px 30px; */
+}
+
+#inputGroup-sizing-lg {
+    border: 1px solid #FF8000 !important;
+    border-right: none !important;
+}
+
+#inputGroup-sizing-lg-1 {
+    border: 1px solid #FF8000 !important;
+    border-left: none !important;
+    background: transparent;
+}
+
+#inputGroup-sizing-lg-1::placeholder {
+    color: #FFFFFF;
+}
+
+.search input:focus {
+    border: 1px solid #FF8000 !important;
+
+}
+
+.search i {
+    position: relative;
+    left: 10%;
+}
+
+.color-only{
+    color: #ff8000;
+}
+
+input[type="search"] {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+input[type="search"]::placeholder {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+
+}
+
+.add-services button {
+    padding: 16px 32px;
+    background-color: #FF8000;
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.add-services button {
+    background-color: #FF8000 !important;
+}
+
+.mens-table,
+.womens-table table {
+    width: 100%;
+    table-layout: auto;
+}
+
+.mens-table table tr td,
+.womens-table table tr td {
+    width: 18%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    vertical-align: middle;
+}
+
+.mens-table table tr th:nth-child(2),
+.womens-table table tr th:nth-child(2) {
+    width: 25%;
+}
+
+.mens-table table tr th:nth-child(3),
+.womens-table table tr th:nth-child(3) {
+    width: 20%;
+}
+
+.mens-table table tr th,
+.womens-table table tr th {
+    background-color: #0d111d;
+    height: 50px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #171B27;
+}
+
+table tr:nth-child(even) {
+    background-color: #252832;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+td img {
+    border-radius: 5px;
+}
+
+.page-link1 {
+    background-color: #171b27;
+}
+
+.page-item1 {
+    border: 1px solid #ff8000;
+    border-radius: 3px;
+}
+
+.page-link.active {
+    background-color: #ff8000 !important;
+}
+
+.page-item:not(:first-child) .page-link {
+    margin-left: 0px;
+}
+
+.buttons {
+    background-color: #252832 !important;
+}
+
+.form-select-even {
+    background: #171B27 !important;
+    color: white;
+    border: none;
+}
+
+.modal-footer-button {
+    padding: 0px 46px 20px 0px !important;
+}
+
+.form-select-odd {
+    background: #171B27 !important;
+    color: white;
+    border: none;
+}
+
+@media only screen and (max-width:767px) {
+    .top-section-right-sec {
+        display: inline;
+    }
+
+}
+
+/* ============================== ADD SERVICES POPUP START ================================ */
+
+.add-service-form-group label,
+.description label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form-select {
+    background-color: #171B27 !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.form-select {
+    color: white !important;
+}
+
+#service {
+    height: 35px;
+    width: -webkit-fill-available;
+    ;
+    background: #171b27;
+    border: none;
+    color: white;
+}
+
+.modal-select {
+    height: 35px;
+}
+
+.modal-btn {
+    background-color: #ff8000 !important;
+    color: white !important;
+}
+
+.modal-footer {
+    border-top: none !important;
+}
+
+.add-service-form-group .form-select {
+    background-image: url(../images/arrow_drop_down.png) !important;
+}
+
+.add-service-form-group textarea,
+.add-service-form-group input[type='number'] {
+    width: 100%;
+    resize: none;
+    color: white;
+    background-color: #171B27 !important;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 6px;
+}
+
+#modal-input {
+    color: white;
+    background-color: #252832;
+    border: none;
+}
+
+#modal-input::placeholder {
+    color: #0d111d;
+}
+
+.upload-img {
+    height: 120px;
+    width: 120px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #171B27;
+}
+
+.upload-img img {
+    margin-left: 30px;
+    margin-top: 31px;
+}
+
+.add-service-btn {
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    background-color: #FF8000;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.add-btn {
+    background: #ff8000;
+    color: white;
+}
+
+.tax {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0077E4 !important;
+}
+
+/* ============================== ADD SERVICES POPUP END ================================ */
+
+
+/* ============================== SALON PANEL SERVICES END ================================ */
+
+
+
+/* =============================== APPOINTMENT CSS START ==================================== */
+.owl-carousel .owl-item img {
+    border-radius: 10px;
+}
+
+.owl-theme .owl-dots {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    background: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #ff8000 !important;
+}
+
+.card {
+    border-radius: 30px !important;
+    background: #0d111d !important;
+    box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px 0px rgba(119, 113, 113, 0.1) !important;
+}
+
+.card-icons {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 9;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 28px;
+    border-radius: 8px;
+    color: #0077E4;
+    border: 1px solid #0077E4;
+    background: #171B27;
+}
+
+.bid-text {
+    border: 1px solid #FFC327;
+}
+
+.card-icons span i {
+    background: #fff;
+    color: #40403F !important;
+    border: 1px solid #fff;
+    box-shadow: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 0;
+}
+
+.card-text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-text span {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.card-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #5bacd9;
+    border: none;
+}
+
+.appointment-top-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -68px !important;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay-section {
+    margin-top: -255px !important;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-salon-color {
+    color: #ff8000 !important;
+}
+
+.btn-salon-color {
+    border: 1px solid #CE6C5E !important;
+    color: #CE6C5E !important;
+    background: #171B27 !important;
+}
+
+input[type="date"] {
+    opacity: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.appointment-calendar {
+    background-color: #171B27;
+    padding: 10px;
+    width: 65px;
+    border-radius: 5px;
+    height: 48px;
+    position: relative;
+    display: flex;
+}
+
+.appointment-calendar img {
+    position: absolute;
+    left: 20%;
+    z-index: 0;
+}
+
+.appointment-card {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.upcoming-appointment {
+    display: flex;
+    background-color: #171B27;
+    padding: 30px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.upcoming-user {
+    display: flex;
+    background-color: #171B27;
+    padding: 0px 0px 0px 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.client-details {
+    display: flex;
+}
+
+.client-img {
+    width: 42px;
+    height: 42px !important;
+    margin-right: 15px;
+}
+
+.client-name {
+    margin-bottom: 0px !important;
+}
+
+.client-id {
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.slot,
+.services-added,
+.services-price,
+.client-name-id {
+    text-align: left;
+}
+
+.slot img,
+.services-added img,
+.services-price img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.slot p,
+.services-added ul li,
+.price {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.services-added ul li {
+    padding-left: 5px;
+}
+
+.slot span,
+.services-added span,
+.services-price span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6B7083 !important;
+    vertical-align: top;
+}
+
+.price {
+    margin-left: 30px;
+}
+
+
+.upcoming {
+    display: flex;
+}
+
+.upcoming select {
+    background-color: #242A3B !important;
+    width: 35% !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    line-height: 18px !important;
+    letter-spacing: 0em !important;
+
+}
+
+.normal-bid .normal,
+.normal-bid .bid {
+    border: 1px solid #0077E4;
+    border-radius: 5px;
+    color: #0077E4 !important;
+    background-color: #171B27;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 30px;
+
+}
+
+.normal-bid .bid {
+    color: #FFC327 !important;
+    border: 1px solid #FFC327 !important;
+}
+
+.bid {
+    margin: 0 60px 0 30px !important;
+}
+
+.appointment-popup {
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.fa-solid.fa-angles-right {
+    font-size: 12px !important;
+}
+
+/* =============================== APPOINTMENT POPUP CSS START ============================ */
+.normal-pay {
+    color: white !important;
+    background-color: #ff8000 !important;
+    border: none;
+}
+
+.modal-header .client-details {
+    margin-right: 40px;
+}
+
+.modal-header .upcoming select {
+    width: 55% !important;
+}
+
+.phone,
+.mail,
+.price,
+.popup-services,
+.popup-time {
+    display: flex;
+
+}
+
+.phone img,
+.mail img,
+.price img,
+.popup-services img,
+.popup-time img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.phone p,
+.mail p,
+.price p,
+.popup-services p,
+.popup-time p {
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 0px !important;
+}
+
+.services-list ul li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.services-list ul {
+    padding-left: 45px;
+}
+
+.popup-client-details {
+    margin-bottom: 20px;
+}
+
+.phone,
+.mail,
+.price,
+.popup-services,
+.popup-time {
+    margin-bottom: 10px;
+}
+
+
+/* =============================== APPOINTMENT POPUP CSS START ============================ */
+
+
+
+/* =============================== APPOINTMENT CSS END ==================================== */
+
+
+/* =============================== BID CSS START ==================================== */
+
+.bid-calendar {
+    background-color: #171B27;
+    padding: 10px;
+    width: 65px;
+    border-radius: 5px;
+    height: 48px;
+    position: relative;
+    display: flex;
+}
+
+.bid-calendar img {
+    position: absolute;
+    left: 20%;
+    z-index: 0;
+}
+
+.bid-sec {
+    margin: 12px;
+}
+
+.bid-appointment {
+    display: flex;
+    background-color: #171B27;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.reject {
+    display: flex;
+}
+
+.bid-reject {
+    color: #CE6C5E;
+    border: 1px solid #CE6C5E;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 5px 10px;
+    margin-right: 15px;
+}
+
+.bid-approved {
+    color: #52AE8D;
+    border: 1px solid #52AE8D;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.fa-solid.fa-xmark,
+.fa-solid.fa-check {
+    margin-right: 5px;
+}
+
+
+/* =============================== BID POPUP START ==================================== */
+
+.modal-header h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.modal-body p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#bid-modal .modal-body form input[type="number"] {
+    margin: 0 12px;
+    width: 93%;
+    background-color: #252832;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+#bid-modal .modal-body form input[type="number"]::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #585E72;
+
+}
+
+
+.bid-btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 !important;
+}
+
+.bid-submitted,
+.bid-rejected {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 16px 32px;
+
+}
+
+.bid-submitted {
+
+    background-color: #FF8000;
+    color: #FFFFFF;
+}
+
+.bid-rejected {
+    background-color: #252832;
+    color: #FF8000;
+    margin-right: 20px;
+}
+
+.popup-text {
+    color: #EDBF46 !important;
+}
+
+/* =============================== BID POPUP END ==================================== */
+
+
+/* =============================== BID CSS END ==================================== */
+
+
+/* =============================== PAYMENTS CSS START ==================================== */
+
+.payment-pending {
+    background-color: #171B27;
+    padding: 20px;
+    color: #FFFFFF;
+    margin: 15px 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.payment-pending h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.payment-pending h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.pending-payment-table tr td ul {
+    padding-left: 0px !important;
+}
+
+.pending-payment-table tr td ul li {
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+
+.pending-btn,
+.completed-btn {
+    color: #EA5354 !important;
+    border: 1px solid #EA5354;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.completed-btn {
+    color: #71B480 !important;
+    border: 1px solid #71B480;
+    ;
+}
+
+.pending-payment-table table tr:nth-child(1) {
+    background-color: transparent;
+}
+
+.pending-payment-table table tr td {
+    vertical-align: middle;
+}
+
+.pending-payment-table {
+    margin-bottom: 80px;
+}
+
+
+
+/* =============================== PENDING PAYMENTS POPUP START ==================================== */
+
+.normal-bid .pending-btn,
+.normal-bid .completed-btn {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 25%;
+    right: 10%
+}
+
+/* =============================== PENDING PAYMENTS POPUP END ==================================== */
+
+
+
+/* =============================== PAYMENTS CSS END ==================================== */
+
+
+/* =============================== REVIEWS CSS START ==================================== */
+
+.reviews-sec {
+    background-color: #171B27;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.reviews-sec h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.reviews-table table {
+    width: 100%;
+}
+
+.reviews-table table tr:nth-child(1) {
+    border-bottom: 1px solid #6B7083;
+    background-color: transparent;
+}
+
+.reviews-table table tr {
+    background-color: transparent;
+}
+
+.review-like,
+.review-comment {
+    width: 20px;
+    height: 20px;
+}
+
+.review-like {
+    margin-right: 10px;
+}
+
+.reviews-table table tr td:nth-child(3) {
+    width: 65%;
+}
+
+
+/* =============================== REVIEWS CSS END ==================================== */
+
+
+/* =============================== PROFILE SETTINGS CSS START ==================================== */
+.profile-settings-form {
+    background-color: #171B27;
+    padding: 20px;
+    position: relative
+}
+
+.profile-settings-form form h5 {
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.profile-settings-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6B7083;
+    margin-bottom: 20px;
+}
+
+.profile-settings-form form .form-group .saloon-name {
+    margin-bottom: 40px;
+}
+
+.profile-settings-input {
+    background-color: #252832;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 16px 20px;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.salon-images {
+    margin-top: 225px;
+}
+
+/* =============================== PROFILE SETTINGS CSS END ==================================== */
+
+/* =============================== Admin Salon start ==================================== */
+#adminsalon {
+    background-color: #0d111d;
+    overflow-x: hidden;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    background: #ff8000 !important;
+    color: white !important;
+    width: max-content;
+}
+
+.owl-carousel .owl-item img {
+    border-radius: 10px;
+}
+
+.owl-theme .owl-dots {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    background: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #ff8000;
+}
+
+.card {
+    margin: 20px;
+    border-radius: 30px;
+    background: #0d111d;
+    box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, 0.3),
+        -10px -10px 20px 0px rgba(119, 113, 113, 0.3);
+}
+
+.card-icons {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 9;
+    display: inline-flex;
+    /* padding: 12px 24px; */
+    align-items: flex-start;
+    gap: 28px;
+    border-radius: 32px;
+    background: #fff;
+}
+
+.card-icons span i {
+    background: #fff;
+    color: #40403F !important;
+    border: 1px solid #fff;
+    box-shadow: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 0px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 0;
+}
+
+.card-text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-text span {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.card-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #5bacd9;
+    border: none;
+}
+
+#basic-addon1 {
+    background-color: #0d111d;
+    color: #ff8000;
+    border: 1px solid #ff8000;
+}
+
+#basic-addon1::placeholder {
+    color: #FFFFFF;
+}
+
+.page {
+    color: #6B7083;
+}
+
+.page-link {
+    color: #ffffff;
+    background-color: #252832;
+    border: none;
+    border-radius: 5px;
+}
+
+.active>.page-link {
+    background: #ff8000 !important;
+}
+
+footer {
+    margin: 20px;
+}
+
+.page-btn {
+    background-color: #252832;
+}
+
+.input-box {
+    border-left: none !important;
+}
+
+/* =============================== Admin Salon end ==================================== */
+
+@media only screen and (max-width:430px) {
+
+    /* ============= footer line */
+    .mob-footer-line {
+        width: 100%;
+        border: 0.5px solid #E5F3FF;
+
+    }
+}
+
+#adminservice {
+    height: 100vh !important;
+}
+
+/* =============================== Admin User start ==================================== */
+#adminuser {
+    background-color: #0d111d;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    margin: 20px;
+}
+
+#basic-addon1 {
+    background-color: #0d111d;
+    color: #ff8000;
+    border: 1px solid #ff8000;
+}
+
+#basic-addon1::placeholder {
+    color: #FFFFFF;
+}
+
+.page {
+    color: #6B7083;
+}
+
+.button {
+    background: #ff8000;
+    color: white;
+}
+
+.page-link {
+    color: #ffffff;
+    background-color: #252832;
+    border: none;
+    border-radius: 5px;
+}
+
+.active>.page-link {
+    background: #ff8000 !important;
+}
+
+footer {
+    margin: 20px;
+}
+
+.page-btn {
+    background-color: #252832;
+}
+
+.input-box {
+    border-left: none !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+thead,
+thead tr,
+thead tr td,
+thead tr th {
+    color: #6B7083;
+    /* you can define a custom color as well */
+    background-color: transparent !important;
+    font-weight: bold;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #171b27;
+}
+
+tr:nth-child(odd) {
+    background-color: #252832;
+}
+
+.buttons {
+    border: 1px solid #ff8000;
+}
+
+.page-link1 {
+    background-color: #171b27;
+}
+
+.page-item1 {
+    border: 1px solid #ff8000;
+    border-radius: 7px;
+}
+
+.page-link.active {
+    background-color: #ff8000;
+}
+
+.page-item:not(:first-child) .page-link {
+    margin-left: 0px !important;
+}
+
+/* =============================== Admin Users end ==================================== */
+
+/* =============================== Admin Profile start ==================================== */
+
+#adminprofile {
+    background-color: #0d111d;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.total {
+    margin: 30px 0px;
+    background: #171b27;
+}
+
+.total1 {
+    background: #171b27;
+    margin: 20px 80px;
+}
+
+.total1 h6 {
+    color: #6B7083 !important;
+}
+
+#exampleInput,
+#exampleInput1 {
+    background-color: #252832;
+    border: none;
+    color: white;
+    height: 40px;
+}
+
+#exampleInput::placeholder {
+    color: white;
+}
+
+#exampleInput1::placeholder {
+    color: #6B7083;
+}
+
+h5 {
+    color: #6B7083;
+}
+
+.btmbutton {
+    background: #ff8000 !important;
+    color: white !important;
+}
+
+.imagee {
+    border-radius: 50%;
+}
+
+/* =============================== Admin Profile END ==================================== */

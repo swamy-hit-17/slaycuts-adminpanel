@@ -1,0 +1,850 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;@500&display=swap');
+
+
+.navbar {
+    position: relative;
+}
+
+#salon-panel{
+    background-color: #0D111D;
+}
+.user {
+    position: absolute;
+}
+
+#wrapper {
+    overflow-x: hidden;
+}
+
+select option {
+    background-color: #F2F2F2 !important;
+    border-radius: 5px !important;
+    border: none !important;
+}
+
+#sidebar-wrapper {
+    width: 100%;
+}
+
+#page-content-wrapper {
+    min-width: 80vw;
+}
+
+
+.form-check-input:checked {
+    background-color: #51B167 !important;
+    border-color: #51B167 !important;
+}
+
+.form-check-input {
+    background-color: #D3D3D3 !important;
+}
+
+.nav-link:hover {
+    color: #E8315D !important;
+}
+
+.admin-content {
+    background-color: #0D111D;
+    padding: 25px 0;
+}
+.box-dash{
+    color: #878787 !important;
+}
+.dashboard-logo img {
+    width: 200px;
+}
+
+.tablet-nav {
+    display: none;
+}
+
+.search input {
+    background-color: #F1F1F1 !important;
+    color: #878787;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 5px 10px 5px 25px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    /* background: url(../images/header-search.png) no-repeat scroll 7px 7px; */
+}
+
+.search input::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    color: #878787;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.fa-magnifying-glass:before {
+    position: absolute;
+    margin-top: -10px;
+    color: grey !important;
+    font-size: 12px;
+}
+
+.fa-regular.fa-bell {
+    font-size: 28px;
+    color: #878787;
+    font-weight: 300 !important;
+}
+
+.num-icons {
+    /* background-color: #46C9C1;
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+    color: white; */
+    width: 25%;
+    margin-right: 20px;
+}
+
+
+.search-exam-input.fa-solid.fa-magnifying-glass:before {
+    color: red !important;
+    position: absolute;
+    top: 20%;
+}
+
+.num-icons .fa-solid {
+    font-size: 25px;
+}
+
+.list-group-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none !important;
+    color: #BBC0CD !important;
+}
+
+/* .list-group-item.active {
+    background-image: linear-gradient(45deg, #FFEFF3, #FFEFF300);
+    background-color: transparent !important;
+    color: #E8315D !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+
+} */
+
+
+#drop-area {
+    width: 100%;
+}
+
+.list-group-item.active::before {
+    content: "";
+    width: 20%;
+    height: 6px;
+    position: absolute;
+    left: -17%;
+    top: 45%;
+    transform: rotate(90deg);
+}
+
+
+.list-group-item img {
+    margin-right: 10px;
+}
+
+.nav-heading {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+
+}
+
+
+.filter-btn,
+.add-more-btn {
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #E8315D;
+    color: #E8315D;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    margin-right: 20px;
+
+}
+
+.cancel-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding: 16px 32px 16px 32px;
+    border-radius: 10px;
+    color: #7D8FA9;
+    background-color: #EEF0F4;
+    border: none;
+    margin-right: 10px;
+}
+
+.submit-cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gallery .fa-solid,
+.pop-img .fa-solid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pop-up-upload-img .img-upload,
+.prev-upload-img .img-upload,
+.toppers-notes .img-upload,
+.question-pop .img-upload {
+    background-color: white !important;
+    border: 1px solid #BFBFBF;
+    border-radius: 4px;
+    width: 144px;
+    height: 144px;
+}
+
+.prev-upload-img {
+    margin-bottom: 25px;
+}
+
+.submit-btn {
+    padding: 16px 32px 16px 32px;
+    border-radius: 10px;
+    background-color: #E8315D;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.modal-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #262626;
+
+}
+
+
+.add-more-btn {
+    margin-top: 25px;
+}
+
+.filter-btn i {
+    margin-right: 10px;
+}
+
+/* OLD CSS */
+
+.lg-screen-nav {
+    /* position: fixed; */
+    top: 0;
+}
+
+.numbers-row {
+    margin-bottom: 30px;
+}
+
+.total-salons,
+.total-services,
+.total-bookings,
+.total-users {
+    background-color: #171B27;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    border-right: 5px solid #46C9C1;
+    border: 25px;
+    position: relative;
+}
+
+
+.total-salons::after,
+.total-services::after,
+.total-bookings::after,
+.total-users::after {
+    content: "";
+    width: 25%;
+    height: 5px;
+    position: absolute;
+
+    right: -11%;
+    border-radius: 0 0 8px 8px;
+    transform: rotate(90deg);
+}
+
+.total-salons::after {
+    background-color: #4687FF;
+}
+
+.total-services::after {
+    background-color: #51D35E;
+}
+
+.total-bookings::after {
+    background-color: #FFC327;
+}
+
+.total-users::after {
+    background-color: #F58561;
+}
+
+
+
+
+.total-salons img {
+    /* width: 25%;
+    height: 45px;
+    margin-right: 20px; */
+    width: 100%;
+}
+
+.content h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px !important;
+    color: white;
+
+}
+
+.content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.dashboard-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.user {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 68%;
+}
+
+.vl {
+    border-left: 1px solid #878787;
+    height: 35px;
+    margin: 0 15px;
+}
+
+.notification {
+    margin-right: 20px;
+}
+
+tr th:first-child {
+    width: 75px;
+    height: 70px;
+}
+
+tr th:nth-child(2) {
+    width: 175px;
+    height: 64px;
+}
+
+tr th:nth-child(3) {
+    width: 175px;
+    height: 64px;
+}
+
+tr th:nth-child(4) {
+    width: 150px;
+    height: 64px;
+}
+
+tr th:nth-child(5) {
+    width: 150px;
+    height: 64px;
+}
+
+tr th:nth-child(6) {
+    width: 150px;
+    height: 64px;
+}
+
+tr th:nth-child(7) {
+    width: 200px;
+    height: 64px;
+}
+
+tr th {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #878787;
+
+}
+
+tr td {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+
+
+}
+
+.payment-table {
+    background-color: #171B27;
+    padding: 20px;
+    color: #FFFFFFFF;
+    border-radius: 5px;
+    margin: 15px 10px 15px 0px !important;
+    width: 97% !important;
+}
+
+.payment-table table {
+    width: 100% !important;
+    height: 255px;
+}
+
+.payment-table h5 {
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.payment-table table tbody {
+    display: block;
+
+
+}
+
+.payment-table table tr {
+    height: 85px;
+}
+
+
+.payment-table table tr th,
+.payment-table table tr td {
+    /* border-bottom: 1px solid #d6d6d6; */
+    padding: 20px 0;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6B7083;
+}
+
+.payment-table table tr td {
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.payment-table table tr td ul li {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+.payment-table table tr td ul {
+
+    padding-left: 0 !important;
+}
+
+.payment-received{
+    border: 1px solid #71B480 !important;
+    color: #71B480 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+.pending,
+.completed {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EA5354;
+    border: 1px solid #EA5354;
+    background-color: #171B27;
+    padding: 3px 12px;
+    width: 50%;
+    border-radius: 5px;
+}
+.pending-btn{
+    border: 1px solid #EA5354;
+    color:#EA5354 ;
+}
+.completed-btn {
+    color: #52AE8D;
+    border: 1px solid #52AE8D;
+}
+.top-salon-bg{
+    background: #171B27;
+    margin-top: 16px !important;
+    margin: 0px 0px 17px 0px;
+}
+.pay-btn {
+    background-color: #FF8000;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.pay-btn.disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.top-salon-card {
+    display: flex;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 90% !important;
+    margin-left: 13px;
+    background-color: #232836;
+    border-radius: 4px;
+}
+.refund-drop-down{
+    color: #EA5354 !important;
+    border: 1px solid #EA5354 !important;
+    background-color: transparent!important;
+    border-radius: 4px !important;
+    width: 80% !important;
+    font-size: 14px !important;
+}
+.refund-drop-down option{
+   
+    background-color: #171B27 !important;
+  
+}
+.top-salon-card img {
+    width: 25%;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.top-salon-details img {
+    width: 18px;
+    height: 18px;
+    margin-right: 2px !important;
+}
+
+
+.top-salon-details h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.top-salon-details span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6B7083;
+}
+
+.down-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-arrow img{
+    width: 15%;
+}
+
+/* ============================== SALON PANEL DASHBOARD STRAT ================================ */
+#salon-panel-dashboard{
+    padding: 50px 0;
+}
+.payment-box{
+    position: relative;
+    background-color: #171B27;
+    padding: 20px;
+    border-radius: 5px;
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.payment-heading{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.payment-rs{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.vl {
+    position: absolute;
+    display: block;
+    width: 7px;
+    height: 71px;
+    /* background-color: red; */
+    background-image: linear-gradient(180deg, #FF8000, #5badd900);
+    top: 12%;
+    left: 0%;
+    border-radius: 9px;
+}
+.vl-1{
+    background-image: linear-gradient(180deg, #5BACD9, #5badd900) !important;
+    margin: 0px !important;
+}
+
+
+/* ============================== SALON PANEL DASHBOARD END ================================ */
+
+/* =============================== PAYMENTS CSS START ==================================== */
+
+.payment-pending{
+    background-color: #171B27;
+    padding: 20px;
+    color: #FFFFFF;
+    margin: 15px 0;
+    border-radius: 5px;
+    position: relative;
+}
+.category-1{
+    background-color: #252832;
+
+}
+.payment-pending h5{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.payment-pending h3{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.pending-payment-table tr td ul{
+    padding-left: 0px !important;
+}
+
+.pending-payment-table tr td ul li{
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+
+.pending-btn, .completed-btn{
+    color: #EA5354 !important;
+    border: 1px solid #EA5354;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.completed-btn{
+    color: #71B480 !important;
+    border: 1px solid #71B480;
+    ;
+}
+.pending-payment-table table tr:nth-child(1){
+    background-color: transparent;
+}
+
+.pending-payment-table table tr td{
+    vertical-align: middle;
+}
+
+.pending-payment-table{
+    margin-bottom: 80px;
+}
+
+.modal-content{
+    background-color: #0D111D !important;
+}
+
+.form-group{
+    position: relative;
+}
+.form-group img{
+    position: absolute;
+    width: 5%;
+    top: 30%;
+    left: 5%;
+}
+
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    margin: 10px 0;
+    background-color: #252832;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.reset-btn, .submit-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: white;
+    width: 25% !important;
+}
+
+.reset-btn {
+    background-color: #252832;
+    
+}
+
+.submit-btn {
+    background-color: #FF8000 !important;
+    margin-left: 40px  !important;
+    
+}
+
+.tell-us-form-btn {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+.pagination-section {
+    margin-top: 50px;
+}
+
+.page-select {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #7e7e7e;
+    align-items: baseline;
+}
+
+.pagination .page-item {
+    margin: 0px 5px !important;
+    border-radius: 8px;
+}
+
+.pagination .page-item .page-link {
+    border: 1px solid #252832 !important;
+    border-radius: 8px !important;
+    background-color: #252832;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.pagination>.active>a {
+    border: none !important;
+    background-color: #FF8000 !important;
+}
+
+.payment-table table tr:nth-child(even){
+    background-color: #171B27 !important;
+}
+
+#basic-addon1{
+    background-color: #252832;
+    border: none;
+    color: white;
+}
+#basic-addon1::placeholder{
+    color: #ffffff;
+}
+#comment-textarea{
+    background-color: #252832;
+    border: none;
+    color: white;
+}
+#comment-textarea::placeholder{
+    color: #ffffff;
+}
+.form-select-option{
+    color: #EA5354 !important;
+    border: 1px solid #EA5354 !important;
+    height: 33px;
+}
+/* =============================== PENDING PAYMENTS POPUP START ==================================== */

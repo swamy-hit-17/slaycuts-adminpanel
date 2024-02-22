@@ -1,0 +1,180 @@
+.navbar {
+    position: relative;
+}
+
+.user {
+    position: absolute;
+    right: 5%;
+    display:flex
+}
+
+.notification{
+    margin-right: 20px;
+}
+
+#wrapper {
+    overflow-x: hidden;
+    /* height: 100vh; */
+}
+
+
+#sidebar-wrapper {
+    width: 100%;
+    background-color: #171B27 !important;
+}
+
+#page-content-wrapper {
+    min-width: 80vw;
+    background-color: #0D111D;
+}
+
+.list-group-item{
+    background-color: transparent !important;
+}
+#page-content-wrapper nav.navbar{
+    background-color: #171B27 !important ;
+    position: relative;
+}
+
+
+
+.admin-content {
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    min-width: 80vw;
+    padding: 25px 0;
+}
+
+.dashboard-logo img {
+    width: 200px;
+}
+
+.tablet-nav {
+    display: none;
+}
+
+
+.num-icons {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.list-group-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none !important;
+    color: #BBC0CD !important;
+}
+
+.list-group-item.active {
+    background-color: #FF8000 !important;
+    color: #FFFFFF !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+}
+
+.list-group-item img {
+    margin-right: 10px;
+    width: 10%;
+}
+
+.nav-heading {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+
+/* ========================================== RESPONSIVE CSS START =============================================================== */
+
+
+/* Large screen */
+
+@media(max-width: 2560px) and (min-width:1445px){
+
+
+    .admin-content{
+        width: 100%;
+    }
+
+}
+
+
+/* Tablet css */
+@media screen and (max-width:992px) {
+    .lg-screen-nav{
+        display: none;
+    }
+    .tablet-nav{
+        background-color: #171B27;
+        display: block;
+        width: 100%;
+    }
+
+    .logo-mobile{
+        width: 100%;
+    }
+
+    aside{
+        width: 8%;
+        z-index: 999;
+    }
+
+    .list-group-item img {
+        width: 90%;
+    }
+    
+    .navbar{
+        position: relative;
+    }
+
+    .user{
+        position: absolute;
+        right: 10%;
+    }
+
+    #page-content-wrapper {
+        min-width: 100vw;
+        
+    }
+
+    #page-content-wrapper .navbar{
+        padding: 16px 20px 16px 20px !important;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .user{
+        right: 20%;
+    }
+    aside{
+        width: 100% !important;
+    }
+
+    .list-group-item.list-group-item-action{
+        padding: 10px !important;
+    }
+
+    .list-group-item img {
+        width: 100%;
+    }
+}
+
+
+/* ============================================================RESPOSNIVE CSS END ========================================== */

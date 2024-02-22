@@ -1,0 +1,602 @@
+/* Large screen */
+
+@media(max-width: 2560px) and (min-width:1445px){
+
+    .numbers img {
+        width: 100%;
+        /* height: 45px;
+        margin-right: 20px; */
+    }
+
+    .user{
+        left: 75%;
+    }
+
+    .numbers::after {
+        content: "";
+        width: 15%;
+        right: -7%;
+    }
+
+    .admin-content{
+        width: 100%;
+    }
+
+    /* .tab-content.overview, .tab-content.mock-test, .tab-content.job-overview {
+        width: 88%;
+    } */
+
+    .mock-test-details, .form-add-question{
+        width: 88% !important;
+    }
+}
+
+@media (min-width:999px) and (max-width:1024px){
+    .download-btn {
+        padding: 10px 11px
+    }
+
+    .user-body-row:nth-child(2) {
+        width: 212px !important;
+    }
+}
+@media (min-width:993px) and (max-width:1177px) {
+    /* .user{
+        left: 60%;
+    } */
+    
+    .nav-pills{
+        width: 100% !important;
+    }
+}
+
+/* Tablet css */
+@media screen and (max-width:992px) {
+
+    .tablet-nav{
+        background-color: #171B27;
+    }
+
+    .logo-mobile{
+        width: 100%;
+    }
+
+    aside{
+        width: 8%;
+        z-index: 999;
+    }
+
+    .list-group-item img {
+        width: 90%;
+    }
+    
+    .navbar{
+        position: relative;
+    }
+
+    .user{
+        position: absolute;
+        right: 3%;
+    }
+
+    #page-content-wrapper {
+        min-width: 100vw;
+        
+    }
+
+    #page-content-wrapper .navbar{
+        padding: 16px 20px 16px 85px !important;
+    }
+}
+@media(max-width:992px) and (min-width:770px){
+    .lg-screen-nav{
+        display: none;
+    }
+
+    .tablet-nav{
+        display: block;
+        position: fixed;
+        top: 0;
+    }
+
+    /* #page-content-wrapper{
+        margin-left: 75px;
+        min-width: 93vw;
+    } */
+    .numbers{
+        margin-bottom: 20px;
+    }
+
+    /* .user{
+        left: 55%;
+    } */
+
+    #sidebar-wrapper {
+        width: 0%;
+    }
+
+    .user-body-row:nth-child(2) {
+        width: 220px !important;
+    }
+
+    .user-section {
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
+
+    .search-exam-input {
+        position: relative;
+        width: 35%;
+    }
+
+    .list-group-item.active::before {
+        width: 60%;
+        left: -38%;
+        top: 41%;
+        
+    }
+}
+
+@media screen and (max-width:430px) {
+    aside{
+        width: 15% !important;
+    }
+}
+@media (max-width:769px) and (min-width: 426px) {
+    .lg-screen-nav{
+        display: none;
+    }
+    .dashboard-logo{
+        display: none;
+    }
+    /* #page-content-wrapper {
+        margin-left: 75px;
+    } */
+    .logo-mobile{
+        display: block;
+        padding-bottom: 20px;
+    }
+    .large-screen-nav{
+        display: none;
+    }
+    .tablet-nav{
+        display: block;
+        position: fixed;
+        top: 0;
+    }
+    .numbers{
+        margin-bottom: 20px !important;
+    }
+
+    /* .user{
+        left: 53%;
+    } */
+
+    .dashboard-heading{
+        margin: 20px 0;
+    }
+
+    .top-bar-heading{
+        margin-top: 10px;
+    }
+
+    .list-group-item.active::before {
+        
+        width: 55%;
+        left: -34%;
+    }
+
+    .label-heading{
+            margin-top: 10px;
+    }
+    /* Exam page */
+
+    /* .exam-notification-button, #filter-button{
+        font-size: 12px;
+    } */
+
+    .exam-notification-button{
+        padding: 16px 36px;
+    }
+
+    .search-exam-input {
+        width: 100%;
+    }
+
+    .btns{
+        justify-content: start;
+        margin-top: 60px;
+    }
+
+    .filter-btn,.exam-notification-button{
+        font-size: 12px;
+    }
+
+    .exam-notification-button{
+        margin-left: 10px;
+    }
+    .button{
+        padding: 15px 85px;
+    }
+
+    #filter-button img{
+        margin-right: 20px;
+    }
+
+    #sidebar-wrapper {
+        width: 0%;
+    }
+
+    #pills-tab{
+        width: 100% !important;
+    }
+
+    .submit-cancel{
+        margin-top: 20px !important;
+    }
+
+    .mock-heading{
+        display: flex!important;
+
+    }
+
+
+    /* .mock-heading {
+        display: flex !important;
+    } */
+
+
+    .prev-btn, .toppers-btn, .question-btn {
+        display: flex;
+        width: 70%;
+        margin-bottom: 25px;
+    }
+    .filter{
+        width: 48%;
+    }
+
+    .filter-btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .exam-notification-button {
+        display: block;
+        width: 100%;
+        
+        text-align: center;
+    }
+
+    .search-exam-input input[type=text]{
+        width: 100%;
+    }
+
+    .search-exam-input input{
+        padding: 5px 25px;
+    }
+
+    .add-more-btn{
+        width: 100%;
+    }
+
+    .cancel-btn, .submit-btn{
+        width: 50%;
+    }
+
+    .search-exam-input i::before {
+        margin-top: -12px;
+        
+    }
+
+    #filter-button{
+        width: 100% !important;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .filter{
+        width: 50%;
+    }
+
+    .mock-test .exam-notification{
+        margin-left: 25px;
+        width: 100%;
+    }
+    .exam-notification-button{
+        width: 100%;
+        
+    }
+
+    .user-section {
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
+
+    /* #page-content-wrapper {
+        min-width: 90vw;
+    } */
+
+    .page-select {
+        justify-content: center !important;
+        margin-bottom: 25px;
+    }
+    
+    .profile-section input {
+        width: 75%;
+    }
+    
+}
+
+@media (max-width:426px) and (min-width: 320px) {
+    #sidebar-wrapper{
+        position: fixed;
+        top: 0;
+    }
+    #page-content-wrapper {
+        margin-left: 75px;
+    }
+    .lg-screen-nav{
+        display: none;
+    }
+
+    .list-group-item.active::before {
+        content: "";
+        width: 57%;
+        height: 6px;
+        position: absolute;
+        background-color: #E8315D;
+        left: -37%;
+        top: 45%;
+        transform: rotate(90deg);
+    }
+    
+
+    .dashboard-logo{
+        display: none;
+    }
+
+    .logo-mobile{
+        display: block;
+        padding-bottom: 20px;
+    }
+    .large-screen-nav{
+        display: none;
+    }
+    .tablet-nav{
+        display: block;
+        padding: 10px 5px;
+        position: sticky;
+        top: 0;
+    }
+    .numbers{
+        margin-bottom: 20px !important;
+    }
+
+    .registration-table{
+        overflow-x: auto;
+    }
+
+    .new-user-registration table tr th, .new-user-registration table tr td {
+        padding: 20px 40px;
+    }
+
+    .dashboard-heading{
+        margin: 15px 0;
+    }
+
+    .search, .vl{
+        display: none;
+    }
+
+    .user{
+        left: 70%;
+    }
+
+    .top-bar-heading{
+        margin-top: 13px;
+    }
+
+    .search-exam-input {
+        width: 100%;
+    }
+
+    .btns{
+        flex-direction: column;
+    }
+
+    .filter{
+        margin: 50px 0 25px 0;
+    }
+
+    #filter-button{
+        width: 100%;
+        display: inline;
+        text-align: center;
+    }
+
+    #filter-button img{
+        margin-right: 10px;
+    }
+
+    .exam-content h5 {
+        font-size: 12px;
+    }
+
+    .exam-notification-button{
+        padding: 16px 32px 16px 32px;
+    }
+
+    #sidebar-wrapper {
+        width: 0%;
+    }
+
+    .option {
+        width: 88%;
+    }
+
+    .answer{
+        display: block !important;
+    }
+
+    #pills-tab{
+        width: 100% !important;
+    } 
+    .label-heading{
+        margin-top: 10px;
+    }
+
+    .add-more-btn{
+        width: 100%;
+    }
+
+    .submit-cancel{
+        margin-top: 15px !important;
+    }
+
+    .cancel-btn {
+        margin-right: 30px !important;
+    }
+
+    .exam-notification-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .search-exam{
+        width: 100% !important;
+    }
+
+    #filter-button{
+        display: block;
+        width: 100%;
+    }
+
+    .exam-notification-button{
+        display: block;
+        width: 100% !important;
+    }
+
+    .mock-heading{
+        display: grid !important;
+    }
+
+    .class-heading{
+        margin-bottom: 0px !important;
+    }
+
+    .prev-btn, .toppers-btn, .question-btn{
+        display: flex;
+        justify-content: start;
+        margin-bottom: 20px;
+    }
+
+    .edit-btn{
+        margin-left: 0px !important;
+    }
+    .submit-cancel{
+        display: grid;
+        justify-content: normal;
+    }
+
+    .submit-btn, .cancel-btn{
+        width: 100% !important;
+    }
+
+    .submit-btn{
+        margin-top: 15px;
+    }
+
+    .search-exam-input i::before {
+        margin-top: -12px;
+    }
+
+    .pop-up-upload-img .img-upload, .prev-upload-img .img-upload, .toppers-notes .img-upload, .question-pop .img-upload{
+        width: 100%;
+    }
+
+    #title{
+        width: 100% !important;
+    }
+
+    .edit{
+        margin-left: 0px !important;
+    }
+
+    .user-section {
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
+
+    .otp-form input {
+        width: 80px;
+        height: 80px;
+    }
+
+    .list-group-item.active::before {
+        width: 113%;
+        left: -72%;
+    }
+
+    .page-select {
+        justify-content: center !important;
+        margin-bottom: 25px;
+    }
+
+    .banner-section{
+        overflow-x: auto;
+    }
+
+    .payment-section{
+        overflow-x: auto;
+    }
+
+    .profile-section input {
+        width: 100%;
+    }
+
+    .pp-img {
+        width: 25%;
+    }
+    
+    
+}
+
+@media (max-width:375px) and (min-width: 320px) {
+    .user{
+        left: 60%;
+    }
+
+    .tablet-nav{
+        display: block;
+        padding: 20px 0;
+    }
+
+    .pop-up-upload-img .img-upload, .prev-upload-img .img-upload, .toppers-notes .img-upload, .question-pop .img-upload{
+        width: 100%;
+    }
+
+    .user-section {
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
+
+    .otp-form input {
+        width: 50px;
+        height: 50px;
+    }
+
+    .otp-content{
+        font-size: 16px;
+    }
+
+    .exam-notification-button{
+        padding: 16px 8px;
+    }
+
+    
+}

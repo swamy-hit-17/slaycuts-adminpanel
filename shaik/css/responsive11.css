@@ -1,0 +1,238 @@
+
+
+
+/* ================ LARGE SCREEN CSS START  ============================= */
+
+@media screen and (min-width:1445px){
+    .owner-input, .sign-in-password,.sign-in-btn  {
+        width: 80%;
+    }
+    
+    .owner-name i, .password-input i {
+        
+        left: 12%;
+    }
+}
+
+
+/* ================ LARGE SCREEN CSS END  ============================= */
+
+
+/* ================TABLET CSS START ==================== */
+
+@media (max-width:992px) and (min-width:600px) {
+
+    .owner-input, .sign-in-password,.sign-in-btn  {
+        width: 60%;
+    }
+    
+    .owner-name i, .password-input i {
+        
+        left: 22%;
+    }
+
+    .about-saloon-form, .bank-info-saloon-form{
+        padding: 75px 0px;
+    }
+
+    ul.nav {
+        padding: 5px;
+        width: fit-content;
+    }
+
+    #pills-men-tab, #pills-women-tab {
+        padding: 10px 40px;
+    }
+
+    .page-select {
+        justify-content: center !important;
+        margin-bottom: 25px;
+    }
+}
+
+
+/* ================TABLET CSS END ==================== */
+
+
+
+
+/* ================MOBILE CSS END ==================== */
+@media (max-width:600px) and (min-width:320px) {
+
+    ul.nav{
+        width: 60%;
+    }
+    .logo img {
+        width: 50%;
+    }
+    .owner-input, .sign-in-password,.sign-in-btn  {
+        width: 90%;
+    }
+    
+    .owner-name i, .password-input i {
+        
+        left: 8%;
+    }
+
+    .otp-form input {
+        width: 80px;
+        height: 80px;
+    }
+
+    .otp-content{
+        font-size: 16px;
+    }
+
+    .about-saloon-form{
+        padding: 75px 20px;
+    }
+
+    .saloon-timing{
+        display: grid;
+    }
+
+    .saloon-open-timing select, .saloon-close-timing select{
+        width: 100%;
+    }
+
+    .saloon-open-timing{
+        margin-bottom: 25px;
+    }
+
+    .saloon-close-timing {
+        margin-left: 0px;
+    }
+
+    .salon-types img{
+        width: 100%;
+    }
+
+    .salon-types .form-check {
+        padding-right: 20px;
+    }
+
+    .tell-us-form-btn{
+        display: flex;
+        flex-direction: column  ;
+        flex-direction: column-reverse;
+    }
+
+    .tell-us-form-btn input{
+        width: 100%;
+    }
+
+    .submit-btn{
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .reset-btn{
+        
+        margin-top: 25px;
+    }
+
+    .form-heading {
+        font-size: 20px;
+    }
+
+    .bank-info-saloon-form{
+        padding: 75px 10px;
+    }
+
+    .skip-now{
+        margin-top: 25px;
+    }
+
+    .services-top-section {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .top-section-right-sec {
+        margin-bottom: 20px;
+    }
+
+    .search i {
+        top: 5%;
+    }
+
+    .add-services button {
+        padding: 16px 16px;
+    }
+
+    .mens-table, .womens-table, .reviews-table{
+        overflow-x: auto ;
+    }
+
+    .action-btn{
+        display: flex;
+    }
+
+    .upcoming-appointment{
+        display: grid;
+        text-align: left;
+    }
+
+    .upcoming-appointment p, .upcoming-appointment ul li{
+        text-align: left;
+    }
+
+    .client-details{
+        margin-bottom:30px;
+    }
+
+    .slot, .services-added, .services-price,.upcoming{
+        margin-bottom:15px;
+    }
+    .slot-time{
+        margin-left: 30px;
+    }
+    .upcoming{
+        justify-content: center;
+    }
+
+    .upcoming select {
+        width: 40% !important;
+    }
+
+    .modal-header{
+        display: grid !important;
+        position: relative !important;
+    }
+
+    .modal-header .btn-close {
+        position: absolute !important;
+        top: 10% !important;
+        right: 5% !important;
+    }
+
+    .modal-body .price{
+        margin-left: 0px !important;
+    }
+
+    .page-select {
+        justify-content: center !important;
+        margin-bottom: 25px;
+    }
+
+    .bid {
+        margin: 0 50px 0 30px !important;
+    }
+}
+
+
+@media (max-width:375px) and (min-width:320px) {
+
+    .otp-form input {
+        width: 50px;
+        height: 50px;
+    }
+
+.normal-bid .normal, .normal-bid .bid {
+    margin: 0 10px;
+    }
+}
+
+/* ================MOBILE CSS END ==================== */
+
+
